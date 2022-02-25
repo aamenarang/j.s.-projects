@@ -18,7 +18,7 @@ const closeModal = function() {
 for(let i = 0; i < btnOpenModal.length; i++)
 btnOpenModal[i].addEventListener('click', openModal);
 btnCloseModal.addEventListener('click', closeModal);
-overLay.addEventListener('click', closeModal); // we dont call the function here, we just declare/define it in this case.
+overLay.addEventListener('click', closeModal); //  dont call the function here,  just declare/define it in this case.
 
 document.addEventListener('keydown', function(e) {
 //console.log(e.key);
